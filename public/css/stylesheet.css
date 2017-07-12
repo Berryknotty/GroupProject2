@@ -22,8 +22,6 @@ body {
 
 /* ------------ Header styles ------------ */
 
-
-
 /* ------ Home ------ */
 
 
@@ -40,6 +38,13 @@ body {
 
 /* ------ Invite ------ */
 
+.home-button{
+    width: 80px !important;
+    height: 40px !important;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
 
 .banner {
 	height: 70px;
