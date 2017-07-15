@@ -55,13 +55,13 @@ var topics = ["What was the last funny video you saw?",
 "What’s the best way to discover new music?"
 ];
 
+// chooses random topic, out of 55 possible choices
 var chosen = topics[Math.round((Math.random() * 55))];
 console.log(chosen);
 
 $("#topic-name").text(chosen);
 
 // This file is executed in the browser, when people visit /chat/<random id>
-
 $(function(){
 
 	// getting the id of the room from the url
