@@ -11,8 +11,8 @@
     "chat",
     "system"
   ],
-  "author": "Nikolay Anastasov",
-  "license": "MIT",
+  "author": "SWM",
+  "license": " ",
   "dependencies": {
     "ejs": "^1.0.0",
     "express": "^4.8.2",
